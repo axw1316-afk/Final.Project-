@@ -90,7 +90,7 @@ def save_image_and_metadata(img_pil, pred_label):
 
 
 
-st.title("Fashion-MNIST Clothing Classifier")
+st.title("Clothing Classifier")
 st.write("Upload a clothing image to get a predicted label and save it to your catalog.")
 
 uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
